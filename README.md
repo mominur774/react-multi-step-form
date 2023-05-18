@@ -21,5 +21,3 @@ npm run dev
 yarn dev
 ```
 Open http://localhost:3000 with your browser to see the result.
-## Demo
-[codesandbox link](https://codesandbox.io/p/github/mominur774/react-multi-step-form/main?workspaceId=2346c119-85b2-45c7-a5de-69104792074a)
