@@ -14,7 +14,11 @@ npm i
 # or
 yarn
 ```
-> Run the development server
+> Start with Docker
+```bash
+docker-compose up --build -d
+```
+> Or start the development server locally
 ```bash
 npm run dev
 # or
