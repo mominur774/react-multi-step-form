@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+    env_file:
+      - ./.env
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    env_file:
+      - ./.env
+    depends_on:
+      - app
